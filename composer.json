@@ -1,0 +1,23 @@
+{
+    "name": "activismebe/laravel-preset", 
+    "description": "The default Activisme_BE preset for the laravel framework", 
+    "keywords": ["laravel", "laravel preset", "activisme_be"], 
+    "license": "MIT", 
+    "authors": [
+        { 
+            "name": "Tim Joosten", 
+            "email": "tim@activisme.be" 
+        }
+    ],
+    "minimum-satbility": "stable", 
+    "autoload": {
+        "psr-4": {
+            "ActivismeBe\\LaravelPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers": ["ActivismeBe\\LaravelPreset\\PresetServiceProvider"]
+        }
+    }
+}
