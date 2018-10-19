@@ -14,7 +14,7 @@ use Illuminate\Foundation\Console\Presets\Preset as PresetBase;
 class Preset extends PresetBase
 {
     /**
-     * Installation class for the Activisme_BE preset. 
+     * Installation function for the Activisme_BE preset. 
      * 
      * @return void
      */
