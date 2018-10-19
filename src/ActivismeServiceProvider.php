@@ -21,7 +21,9 @@ class ActivismeServiceProvider extends ServiceProvider
     {
         PresetCommand::macro('activisme_BE', function ($command) {
             Preset::install(); 
-            $command->info('All finished! Please compile your assets, and you are all set to go!');
+           
+            $command->info('Misfits scaffolding installed successfully.'); 
+            $command->info('Please run "npm install && npm run dev" to compile your fresh scaffolding.');
         });
     }
 }
