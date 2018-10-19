@@ -17,7 +17,7 @@
     },
     "extra": {
         "laravel" : {
-            "providers": ["ActivismeBe\\LaravelPreset\\PresetServiceProvider"]
+            "providers": ["ActivismeBe\\LaravelPreset\\ActivismeServiceProvider"]
         }
     }
 }
