@@ -9,7 +9,7 @@
             "email": "tim@activisme.be" 
         }
     ],
-    "minimum-satbility": "stable", 
+    "minimum-stability": "stable", 
     "autoload": {
         "psr-4": {
             "ActivismeBe\\LaravelPreset\\": "src/"

@@ -20,9 +20,16 @@ class Preset extends PresetBase
      */
     public static function install(): void 
     {
-        static::updatePackages();   /** TODO */
-        static::updateMix();        /** TODO */
-        static::updateScripts();    /** TODO */
-        static::updateStyles();     /** TODO */
+        static::generateAuthStyles();
+    }
+
+    /**
+     * Generate new SCSS files for the Laravel scaffolding. 
+     * 
+     * @return void
+     */
+    public static function generateAuthStyles(): void 
+    {
+        copy(__DIR__ . '/stubs/scss/login.scss', 'sass/login.scss');
     }
 }
